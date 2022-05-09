@@ -1,12 +1,9 @@
-
 #navbar{
     /* border: 1px solid black; */
     height: 130px;
     width: 100%;
     background-color: white;
-    position:relative;
-    font-family: 'Marcellus', serif;
-    
+    position:fixed;
 }
 #navbar{
     top: 0px;
@@ -15,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    font-family: 'Marcellus', serif;
 }
 #blank{
     width: 30%;
@@ -66,7 +62,7 @@
 #navbottom{
     display: flex;
     justify-content: space-evenly;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     letter-spacing: 0.2em;
     padding-top: 15px;
     padding-left: 70px;
@@ -83,311 +79,33 @@
     white-space: nowrap;
     color: #000;
 }
-/* #navbottom > div:hover{
+#navbottom > div:hover{
 
     border-bottom: 2px solid black;
-} */
-
-#navbottom>div:last-child {
+}
+#navbottom a{
+    text-decoration: none;
+    color: #000; ;
+}
+#navbottom>div:last-child a{
     text-decoration: none;
     color: red; ;
 }
 
-/* Bishnu */
-#navbottom {
-    /* margin: 10px; */
-    /* padding: 10px; */
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* gap: 25px; */
-    /* font-size: 16px; */
-    /* border: 1px solid blue; */
-    margin-left: 10px;
-    font-family: 'Marcellus', serif;
-}
-
-#navbottom>div {
-    /* border: 1px solid black; */
-    height: 40%;
-    /* align-items: center; */
-    /* vertical-align: baseline; */
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-}
-
-
-/* Build a Routine Drop Down starts here*/
-
-.BAR {
-    position: relative;
-}
-
-.drop {
-    display: none;
-}
-
-.outside,
-.outsideSkin,
-.outsideHair,
-.outsideMakeup,
-.outsideTools,
-.outsideBath,
-.outsideSelf,
-.outsideFragrance,
-.outsideNew,
-.outsideOld {
-    background-color: white;
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    top: 35px;
-    /* border: 1px solid black; */
-    padding-top: 20px;
-    /* padding-top: 5px; */
-    font-family: 'Marcellus', serif;
-}
-
-.inside {
-    /* border-top: 1px solid rgb(46, 51, 55); */
-    width: 245px;
-    margin: 10px;
-    font-family: 'Marcellus', serif;
-}
-.outsideMakeup>.inside{
-    width:200px;
-    font-size: small;
-}
-.inside div {
-    padding: 5px;
-}
-
-.inside>div>a {
-    text-decoration: none;
-    color: black;
-}
-
-.inside div:first-child>a {
-    font-weight: 550;
-}
-
-.inside div:hover {
-    background-color: rgb(240, 238, 238);
-}
-
-.inside div:nth-child(1) {
-    margin: 10px 0px;
-}
-
-.BAR:hover .drop {
-    display: block;
-}
-
-
-/* pos for other drop Downs */
-
-.outside {
-    right: -1500%;
-    width: 1425px;
-    font-family: 'Marcellus', serif;
-}
-
-.outsideSkin {
-    right: -382%;
-    width:1425px;
-}
-
-.outsideHair {
-    right: -630%;
-    width:1225px;
-}
-
-.outsideMakeup {
-    right: -850%;
-    width:1425px;
-}
-
-.outsideTools {
-    left: -705%;
-    width:1325px;
-}
-
-.outsideBath {
-    left: -175%;
-    width: 900px;
-    height:auto;
-}
-
-.outsideSelf {
-    left: -360%;
-    width: 1415px;
-}
-
-.outsideFragrance {
-    left: -390%;
-    width: 725px;
-}
-
-.outsideNew {
-    left: -750%;
-    width: 905px;
-}
-
-.outsideOld {
-    left: -630%;
-    width: 955px;
-}
-.srk{
-    letter-spacing: 4em;
-}
-/* Bishnu */
-.bodylast>div>img{
-    height:275px;
-    width:230px;
-    /* border:1px solid black; */
-    margin-top:50px;
-    margin-left: 10px;
-    margin-right: 20px;
-    
-}
-
-.productlast>p{
-    text-align: center;
-    color:black;
-    font-size: small;
-    text-transform: uppercase;
-}
-.productlast>p:first-child{
-    font-size: small;
-    font-weight: bold;
-    text-align: center;
-}
-
-.drop2>div>img{
-    height:150px;
-    width:180px;
-    margin-top:50px;
-    margin-left: 10px;
-    margin-right: 20px;
-}
-
-@media all and (min-width:480px) and (max-width:760px){
-    #navbottom{
-        display: none;
-    }
-    #navbar{
-        height: 100px;
-    }
-    #navtop{
-        margin-top: 15px;
-    }
-    #blank{
-        width: 25%;
-    }
-    #logo img{
-        height: 22px;
-        width: 100px;
-    }
-    #third{
-        padding-right: 10px;
-        margin-right: 100px;
-    }
-    #third>div:first-child{
-        font-size: 8px;
-        padding-top: 2px;
-        letter-spacing: 0.1em;
-    }
-    #third > div:first-child img{
-        width: 12px;
-        height: 15px;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    #user img{
-        width: 15px;
-        height: 12px;
-        margin-top: 12px;
-        margin-left: 5px
-    }
-
-    #bag img{
-        width: 15px;
-        height: 12px;
-        margin-top: 12px;
-        margin-left:5px
-    }
-}
-
-@media all and (min-width:120px) and (max-width:480px){
-    #navbottom{
-        display: none;
-    }
-    #navbar{
-        height: 80px;
-    }
-    #navtop{
-        margin-top: 15px;
-    }
-    #blank{
-        width: 25%;
-    }
-    #logo img{
-        height: 20px;
-        width: 100px;
-    }
-    #third{
-        padding-right: 10px;
-        margin-right: 50px;
-    }
-    #third>div:first-child{
-        font-size: 8px;
-        padding-top: 2px;
-        letter-spacing: 0em;
-    }
-    #third > div:first-child img{
-        width: 12px;
-        height: 15px;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    #user img{
-        width: 15px;
-        height: 12px;
-        margin-top: 12px;
-        margin-left: 5px
-    }
-
-    #bag img{
-        width: 15px;
-        height: 12px;
-        margin-top: 12px;
-        margin-left:5px
-    }
-}
-
-
-
-
-/* cart  */
+/* CART */
 .cart {
     position: fixed;
     top: 0;
-    right: -110%;
-    width: 1px;
+    right: -100%;
+    width: 360px;
     min-height: 100vh;
-    height: 400px;
+    height: 200px;
     padding: 20px;
     background-color: white;
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
     transition: 0.3s;
     scroll-behavior: smooth;
     overflow: scroll;
-    margin-top: 140px;
 }
 .cart.active {
     right: 0;

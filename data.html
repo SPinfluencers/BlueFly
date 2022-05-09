@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div ></div>
+  <a href="information.html"></a>
+</body>
+</html>
+<script>
+
+  
+  //<------- MAIN CART PAGE ----------->//
+
+var data=[
+  {
+      image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312134872_RLLZ_2_large.jpg?v=1651124962",
+      proName:"BALENCIAGA",
+      detail:"BALENCIAGA TRIPLE S SNEAKER",
+      price:899,
+      strike:"$1050",
+      offer:"Save 14%",
+      qty: 1,
+
+    },
+    {
+     image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312147418_RLLZ_2_large.jpg?v=1651343551",
+     proName:"ANTONIO MAURIZI",
+      detail:"ANTONIO MAURIZI LEATHER PENNY LOAFER",
+      price:299.99,
+      strike:"$495",
+      offer:"Save 39%",
+      qty: 5,
+    },
+    {
+      image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2226797_large.jpg?v=1649703473",
+      proName:"BALENCIAGA",
+      detail:"TRIPLE S SNEAKER",
+      price:839.73,
+      strike:"$1072",
+      offer:"Save 22%",
+      qty: 1,
+    },
+    {
+      image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2205456_large.jpg?v=1649703242",
+      proName:"ALEXANDER MC QUEEN",
+      detail:"ALEXANDER MC QUEEN OVERSIZED LEATHER SNEAKERS",
+      price:499.99,
+      strike:"$580",
+      offer:"Save 14%",
+      qty: 1,
+    }
+]
+
+
+// console.log(data)
+
+localStorage.setItem("cart1", JSON.stringify(data)) 
+
+// let cartArr = JSON.parse(localStorage.getItem("cart1")) || []
+
+    </script>
