@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #loinform {
+        margin: auto;
+        width: 30%;
+        box-sizing: border-box;
+        /* border: 1px solid red; */
+        text-align: center;
+        text-transform: uppercase;
+        /* padding: 10px; */
+      }
+      .input {
+        width: 98%;
+        height: 25px;
+        margin-top: -15px;
+        margin-bottom: 30px;
+      }
+      #loinform label {
+        display: flex;
+        justify-content: left;
+      }
+      #submit {
+        width: 100%;
+        height: 40px;
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 13px;
+        padding: 13px 20px;
+      }
+      #checkbox {
+        display: flex;
+        /* border: 1px solid red; */
+        align-items: center;
+        padding: 0px 10px;
+        font-size: 13px;
+        justify-content: space-around;
+      }
+      @media only screen and (max-width: 600px) {
+          #loinform{
+              width: 60%;
+
+          }
+      }
+      @media only screen and (max-width: 1000px) {
+          #loinform{
+              width: 60%;
+
+          }
+      }
+    </style>
+    <title>Register</title>
+  </head>
+  <body>
+    <form id="loinform" onsubmit="register(event)">
+      <h1>CREATE ACCOUNT</h1>
+      <label for="UserFirstName">First Name</label><br />
+      <input class="input" id="UserFirstName" type="text" /><br />
+      <label for="UserLastName">Last Name</label><br />
+      <input class="input" id="UserLastName" type="text" /><br />
+      <label for="UsearEmail">Email</label><br />
+      <input class="input" id="UsearEmail" type="email" /><br />
+      <label for="UserPassword">Password</label><br />
+      <input class="input" id="UserPassword" type="password" /><br />
+      <div id="checkbox">
+        <input type="checkbox" />
+        <p>Subscribe to stay updated with new offers!</p>
+      </div>
+      <button id="submit">CREATE</button>
+    </form>
+  </body>
+</html>
+<script>
+  
+  const register=(event)=>{
+    event.preventDefault()
+    let form = document.getElementById("loinform")
+    let First = form.UserFirstName.value
+    let Last  = form.UserLastName.value
+    let Email = form.UsearEmail.value
+    let Password = form.UserPassword.value
+    let user = {
+      First,
+      Last,
+      Email,
+      Password
+    }
+    console.log(First, Last, Email, Password);
+    if(First!=="" & Last!=="" & Email!=="" & Password!==""){
+      let Users = JSON.parse(localStorage.getItem("Users")) || [];
+      Users.push(user)
+      localStorage.setItem("Users",JSON.stringify(Users))
+      window.location.href="Login.html"
+    }else{
+      alert("Enter All Information")
+    }
+
+  }
+
+</script>
