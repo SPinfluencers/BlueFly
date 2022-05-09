@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="/images/icon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Marcellus&family=Poppins:ital,wght@0,300;0,500;1,200&family=Tinos&family=Unna&family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/navbar.css">
+    <title>Bluefly: Womens</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Marcellus&family=Poppins:ital,wght@0,300;0,500;1,200&family=Tinos&family=Unna&family=Vidaloka&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"crossorigin="anonymous"></script>
+    <style>
+       /* bishnu  */
+       .footerFirstDetails>div>img{
+    height:400px;
+    width:400px;
+    /* border: 1px solid black; */
+}
+.footerFirstDetails{
+    font-family: 'Marcellus', serif;
+    display: grid;
+    width:97%;
+    margin-top:50px ;
+    margin-left:40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    border-top:1px solid rgb(120, 116, 116);
+    text-align: center;
+}
+.footerFirstDetails>div{
+    border: 1px solid black;
+    width:450px;
+    border:none;
+}
+
+#footerpic img{
+     width:460px;
+     height:350px;
+     margin-top:30px;
+}
+.pDetails>h2{
+    font-weight: 400;
+   text-align: center;
+   font-family: 'Marcellus', serif;
+}
+.pDetails{
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+}
+#disc{
+    margin-top: 15px;
+    text-align: center;
+    /* margin-left: 30%; */
+    width:auto;
+    padding:10px 15px 10px 15px;
+    background-color: white;
+    letter-spacing: 0.2em;
+    border:1px solid rgb(153, 148, 148);
+    font-family: 'Marcellus', serif;
+}
+.footer{
+    width:100%;
+    padding-top:60px;
+    padding-bottom: 100px;
+    background-color: #e6e6e6;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.col-1,.col-2{
+    text-align: left;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.col-1>h4{
+    margin-left: 35px;
+    width: 150px;
+}
+.footer div h3{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.col-1 a,.col-2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 300px;
+}
+.col-2 {
+    padding-top: 60px;
+    margin-right: 60px;
+    height:100px;
+    font-weight: 500;
+    
+}
+#form input,#buttonb {
+    width:290px;
+    height:30px;
+    text-align: center;
+    margin-bottom:24px;
+    outline: none; 
+}
+#buttonb{
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    display: flex;
+    margin-right: 160px;
+    margin-top:10px;
+}
+.social-icons i{
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#imgbg>img{
+    width:270px;
+    height:100px;
+    /* border:1px solid black; */
+    margin-top: 50px;
+}
+.col-3{
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.col-3>h4{
+
+    width:300px;
+    letter-spacing: 0.2em;
+}
+#goggldiv{
+    width: 260px;
+    height:260px;
+}
+#goggldiv img{
+     width:240px;
+     height:70px;
+     margin-top:80px;
+}
+
+.viewport{
+    background-color: white;
+    color:black;
+    margin-left: 47%;
+    border:1px solid rgb(165 159 159);
+    height: 40px;
+    width:120px;
+    letter-spacing: 4px;
+}
+
+@media all and (min-width:480px) and (max-width:760px){
+
+    .footerFirstDetails{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        margin-left: auto;
+    }
+    .bodyFirstDetails,.bodyFirstDetails1{
+        overflow: scroll;
+        margin-left: auto;
+        width:98%;
+    }
+  .viewport{
+     margin-bottom: 20px;
+  }
+  .productDetails>p{
+    display: inline-block;
+    
+}
+#footerpic img{
+    width:400px;
+    margin-left: 0px;
+   
+}
+.footer .col-3{
+    width: 200px;
+    margin-top: 150px;
+}
+.footer{
+   grid-template-columns: repeat(1,1fr);
+   grid-template-rows: auto;
+   width:100%;
+}
+.col-3{
+    margin-left: 30px;
+}
+}
+
+@media all and (min-width:120px) and (max-width:480px){
+
+    .footerFirstDetails{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: auto;
+    }
+    .bodyFirstDetails,.bodyFirstDetails1{
+        overflow: scroll;
+        margin-left: auto;
+    }
+    .productDetails>p{
+        display: inline-block;
+        
+    }
+    .footer{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        width:100%;
+     }
+     .col-3{
+        margin-left: 30px;
+    }
+    #footerpic img{
+        width:400px;
+        margin-left: 0px;
+       
+    }
+    .footer .col-3 h4{
+        width: 200px;
+        margin-top: 150px;
+    }
+    .pDetails h2{
+        margin: auto;
+        width: 300px;
+    }
+}
+#form{
+    width: 200px;
+}
+      /* bishnu  */
+    *{
+         /* font-family: ProximaNovaA-Regular; */
+         font-family: Tiemann, serif;
+    }
+        #bigcontainer{
+            height: auto;
+            width: 90%;
+            /* border: 1px solid black; */
+            display: flex;
+            margin: auto;
+            gap: 50px;
+            /* margin-top: 150px; */
+        }
+        #left{
+            height: auto;
+            width: 350px;
+            border: 0.2px solid rgb(218, 216, 216);  
+            margin-top: 40px;
+            /* margin-left: 30px; */
+            /* border-right: 1px solid grey; */
+            padding-left: 10px;
+        }
+        #smallcontainer{
+            height: auto;
+            width: 1100px;
+            /* border: 1px solid red; */
+            margin-right: 30px;
+            padding: 10px;
+        }
+        #box{
+            height: auto;
+            width: 100%;
+            /* border: 1px solid blue; */
+            margin-top: 40px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #pdtbox{
+            height: auto;
+            width: 1000px;
+            /* border: 1px solid black;  */
+            display: grid;
+            /* padding: 10px; */
+            grid-template-columns: repeat(3,1fr);
+            gap: 5px;
+        }
+        #pdtbox>div{
+            /* border: 1px solid black;  */
+            /* padding: 10px; */
+            text-align: center;
+            margin: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+         }
+         @media only screen and (min-width:70px) and (max-width:420px){
+            #pdtbox{
+                height: auto;
+                width: auto;
+                grid-template-columns: repeat(1,1fr);
+            }
+         }
+         @media only screen and (min-width:420px) and (max-width:780px){
+            #pdtbox{
+                height: auto;
+                width: auto;
+                grid-template-columns: repeat(2,1fr);
+            }
+         }
+        
+    </style>
+</head>
+
+<body>
+  <div id="navbar"></div>
+        <div id="bigcontainer">
+            <div id="left">
+                <h3 style="cursor: pointer;">Category</h3>
+                <hr align="left">
+                <h5 style="color:#84c225;"></h5>
+                        <p id="side">Activewear coats & jackets </p>
+                        <p id="side">Activewear Sweatshirts & Hoodies</p>
+                        <p id="side">Activewear Tees & Tops </p>
+                        <p id="side">Backpacks</p>
+                        <p id="side">Sandals & FlipFlops </p>
+                        <p id="side">Bracelets & Belts</p>
+               <h3> Brand</h3>
+                <hr align="left">
+                <div id="scroll">
+                  <input type="checkbox"  onclick="funclick1()"/>GUCCI<br>
+
+                </div>
+                
+                <br>
+                <h3> Price </h3>
+                <hr align="left">
+                  <div>
+                  <input type="checkbox" value="less100" class="theClass" onclick="funprice1()"/>less than $.200 <br>
+                  <input type="checkbox"  value="100to200" class="theClass" onclick="funprice2()"/>$.100 to $.200<br>
+                  <input type="checkbox" value="upto500" class="theClass" onclick="funprice3()"/>$.500 to $850<br>
+                  <input type="checkbox" value="less1000" class="theClass" onclick="funprice4()"/>greater than $.850<br>
+                  </div>
+            </div>
+            <div id="smallcontainer">
+                <div id="box">
+                    <h1 style="margin: auto;">Women</h1>
+                    <select id="sortby" style="height: 30px; margin-top: 20px;">
+                      <option value="">Select Sort</option>
+                        <option value="pop">Best Selling</option>
+                        <option value="asc">Price:Low to High</option>
+                        <option value="dsc">Price:High to Low</option>
+                        <option value="alpha">A-Z</option>
+                    </select>
+                </div>
+                
+                
+                <div id="pdtbox">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footerFirstDetails">
+          <div id="footerf">
+              <div id="footerpic">
+                  <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/denim_900x.jpg?v=1615204984" alt="" />
+              </div>
+              <div class="pDetails">
+                  <h2>UP TO 85% OFF THE DENIM SHOP FOR HIM & HER</h2>
+              </div>
+              <div class="pDetails">From Hudson Jeans, Joe's Jeans, J Brand & More</div>
+             <button id="disc">SHOP DENIM</button>
+          </div>
+          <div id="footerf">
+              <div id="footerpic">
+                  <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/lightweight_jackets_900x.jpg?v=1630509164" alt="" />
+              </div>
+              <div class="pDetails">
+                  <h2>UP TO 80% OFF LIGHTWEIGHT JACKETS & COATS</h2>
+              </div>
+              <div class="pDetails">Must-Haves From Cole Haan, Burberry, & More</div>
+             <button id="disc">SHOP OUTER WEAR</button>
+          </div>
+          <div id="footerf">
+              <div id="footerpic">
+                  <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/accesories_900x.jpg?v=1630509636" alt="" />
+              </div>
+              <div class="pDetails">
+                  <h2>UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</h2>
+              </div>
+              <div class="pDetails">Shop Wallets, Belts, Hats, Sunglasses & More</div>
+              <button id="disc">SHOP WOMEN'S ACCESSORIES</button>
+          </div>
+      </div>
+
+       <div class="footer">
+          <div class="col-1">
+              <h4>ABOUT US</h4>
+              <a href="#">Contact Us</a>
+              <br>
+              <a href="#">Frequently Asked Questions</a>
+              <br>
+              <a href="#">Shipping& Returns</a>
+              <br>
+              <a href="#">Pre-Owned Guide</a>
+          </div>
+          <div class="col-2">
+              <a href="#">Sell on Bluefly</a>
+              <br>
+              <a href="#">Privacy Policy</a>
+              <br>
+              <a href="#">Terms& Conditions</a>
+          </div>
+          <div class="col-3">
+              <h4>SIGN UP AND SAVE</h4>
+              <div id="form">
+                  <p>Subscribe to get exclusive offers on designer brands</p>
+                  <input type="text"placeholder="Enter email address" required>
+                  <br>
+                  <button type="submit"onclick=subfun() id="buttonb">Subscribe</button>
+              </div>
+              <div class="social-icons">
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-facebook"></i>
+              </div>
+              <div id="imgbg">
+                  <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/Untitled_2_.png_5_x104@2x.png?v=1620852820" alt="">
+              </div>
+          </div>
+      </div>
+</body>
+
+</html>
+<script>
+    var data=[
+       {
+         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313251065_RLLZ_2_large.jpg?v=1651262751",
+         proName:"GUCCI",
+         detail:"GUCCI FETISH 80 LEATHER SANDAL",
+         price:698.99,
+         strike:"$925",
+         offer:"Save 24%",
+         qty:1,
+       },
+       {
+         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/453225-6568-8074143033__2_large.jpg?v=1649754402",
+         proName:"GUCCI",
+         detail:"GUCCI WOMEN'S GHOST RED MODAL SCARF",
+         price:400.00,
+         strike:"$595",
+         offer:"Save 33%",
+         qty:1,
+       },
+       {
+         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/103770.02_large.jpg?v=1651371488",
+         proName:"GUCCI",
+         detail:"GUCCI GOLD AVIATOR SUNGLASSES",
+         price:199.99,
+         strike:"$395",
+         offer:"Save 49%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313122420_RLLZ_2_large.jpg?v=1649157448",
+         proName:"GUCCI",
+         detail:"BALENCIAGA FETISH 80 LEATHER SANDAL",
+         price:799.99,
+         strike:"$980",
+         offer:"Save 18%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/566161-xjav9-4804__2_large.jpg?v=1651426075",
+         proName:"GUCCI",
+         detail:"GUCCI FLORAL LACE BOMBER JACKET",
+         price:1699.99,
+         strike:"$3193",
+         offer:"Save 48%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/edt-1641509988173_large.jpg?v=1651422763",
+         proName:"GUCCI",
+         detail:"GUCCI COLLAR WITH FUR COLLAR DETAIL IN BLACK",
+         price:3353,
+         strike:"$7169",
+         offer:"Save 53%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1HGUBP017_2_large.jpg?v=1651522358",
+         proName:"GUCCI",
+         detail:"GUCCI BAMBOO LEATHER BACKPACK",
+         price:618.00,
+         strike:"$1445",
+         offer:"Save 57%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1DGUBP004-1_10_large.jpg?v=1651531503",
+         proName:"GUCCI",
+         detail:"PREOWNED GUCCI BAMBOO LEATHER BACKPACK",
+         price:546.99,
+         strike:"$1445",
+         offer:"Save 62%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313198110_RLLZ_2_large.jpg?v=1648912843",
+         proName:"GUCCI",
+         detail:"ALEXANDER MC QUEEN CRYSTAL SUEDE SANDAL",
+         price:1059.99,
+         strike:"$1250",
+         offer:"Save 15%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2216041_large.jpg?v=1649703347",
+         proName:"GUCCI",
+         detail:"ALEXANDER MC QUEEN CRYSTAL SANDALI",
+         price:782.73,
+         strike:"$1249",
+         offer:"Save 37%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313921749_RLLZ_2_large.jpg?v=1651339877",
+         proName:"GUCCI",
+         detail:"BOTTEGA VENETA THE LIDO LEATHER SANDAL",
+         price:649.99,
+         strike:"$760",
+         offer:"Save 14%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313256624_RLLZ_2_large.jpg?v=1651558204",
+         proName:"GUCCI",
+         detail:"BOTTEGA VENETA THE LIDO LEATHER SANDAL",
+         price:1139.99,
+         strike:"$1300",
+         offer:"Save 12%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/57972565_large.jpg?v=1651526743",
+         proName:"GUCCI",
+         detail:"PRE OWNED BUMBULBEE COIN BRACELET",
+         price:316.99,
+         strike:"$800",
+         offer:"Save 61%",
+         qty:1,
+        },
+        {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/GLJ1KGUCB002_2_large.jpg?v=1651520476",
+         proName:"GUCCI",
+         detail:"PRE OWNED BUMBULBEE LEATHER BRACELET",
+         price:261,
+         strike:"$625",
+         offer:"Save 58%",
+         qty:1,
+        },
+        {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gucci-triple-wrap-snake-bracelet-with-crystals-in-white-runway-catalog-949616_large.jpg?v=1650984629",
+         proName:"GUCCI",
+         detail:"TRIPLE WRAP SNAKE BRACELET WITH CRYSTALS",
+         price:3250,
+         strike:"$3875",
+         offer:"Save 16%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gucci-snake-motif-crystal-embellished-bracelet-runway-catalog-365130_e6834128-46da-483a-8b42-fdb0fab46695_large.jpg?v=1650909161",
+         proName:"GUCCI",
+         detail:"GUCCI SNAKE MOTIF BRACELET WITH CRYSTALS",
+         price:2031,
+         strike:"$3066",
+         offer:"Save 32%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/269813-e7i0t-2140-38__2_large.jpg?v=1651126219",
+         proName:"GUCCI",
+         detail:"DOLCE & GABBANA BLACK LEATHER STILETTO SANDALS",
+         price:364.04,
+         strike:"$835",
+         offer:"Save 56%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/257319-e7i0t-2140-95__2_large.jpg?v=1651312288",
+         proName:"GUCCI",
+         detail:"GUCCI WOMEN'S GOLD SQUARE BUCKLE DARK BROWN",
+         price:515,
+         strike:"$895",
+         offer:"Save 42%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/388992-8061-95-38__3_large.jpg?v=1651124764",
+         proName:"GUCCI",
+         detail:"GUCCI WOMEN'S CHAIN TASSEL GOLD",
+         price:340,
+         strike:"$495",
+         offer:"Save 31%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/66637744_large.jpg?v=1651544392",
+         proName:"GUCCI",
+         detail:" GUCCI PRE OWNED LEATHER BELT",
+         price:446,
+         strike:"$653",
+         offer:"Save 32%",
+         qty:1,
+       },
+       ];
+
+       var datafromlocal=JSON.parse(localStorage.getItem("designers"))||[];
+       displayData(data);
+       function displayData(data){
+      document.querySelector("#pdtbox").innerHTML="";
+      data.map(function(ele){
+          var div=document.createElement("div");
+
+          var div2=document.createElement("div");
+        
+
+           var image=document.createElement("img");
+           image.src=ele.image_url;
+           image.style.width="100%"
+           image.style.height="220px"
+           image.style.cursor="pointer";
+           image.addEventListener("click",function(){
+            myimgfun(ele);
+           });
+
+           var div3=document.createElement("div");
+           var pro=document.createElement("p");
+           pro.innerText=ele.proName;
+           pro.style.fontSize="12px";
+           pro.style.color="grey"
+           var name=document.createElement("p");
+           name.innerText=ele.detail;
+           name.style.margin="-12px auto -2px auto"
+           div3.append(pro,name)
+
+
+           var div4=document.createElement("div");
+           var price=document.createElement("p");
+           price.innerText=`$.${ele.price}`;
+           var strike=document.createElement("p");
+           strike.innerText=ele.strike;
+           strike.style.textDecoration="line-through"
+           var saving=document.createElement("p");
+           saving.innerText=ele.offer;
+           saving.style.color="red"
+           div4.append(price,strike,saving);
+           div4.style.display="flex";
+           div4.style.justifyContent="space-evenly";
+           
+
+           div.append(div2,image,div3,div4,); 
+
+           document.querySelector("#pdtbox").append(div);
+           localStorage.setItem("designers",JSON.stringify(data));
+           
+       })
+
+       }
+
+       function myimgfun(ele){
+         console.log(ele);
+         localStorage.setItem("product",JSON.stringify(ele));
+         window.location.href="products.html";
+       }
+       //-------------Sort Logic--------------------------------------------
+       document.querySelector("#sortby").addEventListener("change",sortByPrice);
+       function sortByPrice(){
+        var sortData=document.querySelector("#sortby").value;
+
+          if(sortData=="dsc"){
+          data.sort(function(a,b){
+            if(a.price>b.price) return -1;
+            if(a.price<b.price) return 1;
+            return 0;
+          })
+       console.log(data)
+       displayData(data);
+          }
+
+       if(sortData=="asc"){
+          data.sort(function(a,b){
+            if(a.price>b.price) return 1;
+            if(a.price<b.price) return -1;
+            return 0;
+          })
+       console.log(data)
+       displayData(data)
+      }
+
+        if(sortData=="alpha"){
+      data.sort(function (a, b) {
+      if (a.detail > b.detail) return 1;
+      if (a.detail < b.detail) return -1;
+      return 0;
+    });
+
+    console.log(data);
+    displayData(data)
+        }
+        if(sortData=="pop"){
+      data.sort(function (a, b) {
+      if (a.strike > b.strike) return -1;
+      if (a.strike < b.strike) return 1;
+      return 0;
+    });
+
+    console.log(data);
+    displayData(data)
+        }
+    }
+    //-----------------------------end of Sort Logic---------------------------
+     // -----------------checkBox Brand Logic----------------------------------
+     var a=b=c=d=0; var count1=0;
+    function funclick1(){
+        if(count1==0){
+            a=1;
+            count1++;  
+        }else{
+            a=0;
+            count1--;
+        }
+       
+        abc1();
+    }
+   
+    var checkBoxArr=[];
+     
+    function abc1(){
+      if(a==1){
+        var w=[]
+        data.map(function(ele){
+          if(ele.proName=="GUCCI"){
+            
+            w.push(ele);
+            displayData(w);
+          }
+        })
+      }else{
+        displayData(data);
+      }
+    }
+   
+//--------------------- End of CheckBox Brand----------------------------
+//-----------------------------checkBox Price-------------------------------
+var a=b=c=d=0; var count1=0;
+    function funprice1(){
+        if(count1==0){
+            a=1;
+            count1++;  
+        }else{
+            a=0;
+            count1--;
+        }
+       
+        price1();
+    }
+    var count2=0;
+    function funprice2(){
+        if(count2==0){
+            b=1;
+            count2++;  
+        }else{
+            b=0;
+            count2--;
+        }
+        price2();
+    }
+    var count3=0;
+    function funprice3(){
+        if(count3==0){
+            c=1;
+            count3++;  
+        }else{
+            c=0;
+            count3--;
+        }
+        price3(); 
+    }
+    var count4=0;
+    function funprice4(){
+        if(count4==0){
+            d=1;
+            count4++;  
+        }else{
+            d=0;
+            count4--;
+        }
+        price4();
+    }
+
+    function price1(){
+      if(a==1){
+        var w=[]
+        data.map(function(ele){
+          if(ele.price < 200){
+            
+            w.push(ele);
+            displayData(w);
+          }
+        })
+      }else{
+        displayData(data);
+      }
+    }
+   function price2(){
+      if(b==1){
+        var x=[]
+         data.map(function(ele){
+           if(ele.price > 100 &&  ele.price < 200){
+             x.push(ele);
+             displayData(x);
+           }
+         })
+       }else{
+         displayData(data);
+       }
+      }
+  function price3(){
+       if(c==1){
+        var y=[];
+         data.map(function(ele){
+           if(ele.price>500 && ele.price<850){
+             y.push(ele);
+             displayData(y);
+           }
+         })
+       }else{
+         displayData(data);
+       }
+      }
+       function price4(){
+       if(d==1){
+         var z=[];
+         data.map(function(ele){
+           if(ele.price>850){
+             z.push(ele);
+             displayData(z);
+           }
+         })
+       }else{
+         displayData(data);
+       }
+    } 
+    //_---------------------------end of CheckBox Price-------------------------   
+     
+</script>
+<script type="module" >
+  import {navbar} from "./components/navbar.js"
+  let nav=document.getElementById("navbar").innerHTML=navbar();
+</script>
+<script>
+  function subfun(){
+    document.getElementById("buttonb").innerHTML=null
+    document.getElementById("form").innerText="Thank You For Suscribe !!!"
+}
+</script>
