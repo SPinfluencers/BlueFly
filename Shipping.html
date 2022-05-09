@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bluefly</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/icon.jpg">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #ship{
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bb">
+      <div id="left">
+        <div id="section"><a href="index.html">
+          <img
+            id="checkout-logo"
+            src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180177"
+            alt=""
+          /></a>
+          <div id="breadcurm">
+            <p>Cart</p>
+            <i class="fa-solid fa-greater-than"></i>
+            <p><a href="Information.html" id="info">Information</a></p>
+            <i class="fa-solid fa-greater-than"></i>
+            <strong><p><a href="Shipping.html" id="ship">Shipping</a></p></strong>
+            <i class="fa-solid fa-greater-than"></i>
+            <p><a href="Payment.html" id="payt">Payment</a></p>
+          </div>
+
+          <!-- Information -->
+
+          <!-- <div style="background-color: aqua"> -->
+
+          <div id="shipping">
+            <div id="innerdiv">
+              <div>
+                <div>Contact</div>
+                <div id="UserEmail"></div>
+                <div>Change</div>
+              </div>
+              <hr />
+              <div>
+                <div>Ship to</div>
+                <div>
+                  <p id="UserAddress"></p>
+                </div>
+                <div>Change</div>
+              </div>
+            </div>
+
+            <p id="sm1">shipping method</p>
+            <p id="sm2">shipping method</p>
+
+            <div id="innerdiv">
+              <div>
+                <div><input type="radio" name="aaaa" id="ship1" checked value="1" />
+                </div>
+                <div>Standard</div>
+                <div>$7.95</div>
+              </div>
+              <hr />
+              <div>
+                <div>
+                  <input type="radio" name="aaaa" id="ship2" value="2" />
+                </div>
+                <div>Expedited</div>
+                <div>$19.95</div>
+              </div>
+            </div>
+
+          </div>
+          <div id="form-footer">
+            <p>Return to cart</p>
+            <button id="shippintopayment">Continue to Payment</button>
+          </div>
+          <hr />
+          <!-- Information -->
+
+          <div id="checkout-footer">
+            <a href="#">Refund policy</a>
+            <a href="#">Shipping policy</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of service</a>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <div id="section">
+<div id="product"></div>
+
+          <!-- <div id="product">
+            <div id="pro-img">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411277626_RLLZ_1_small.jpg?v=1651555978"
+                alt=""
+              />
+              <div id="qty">5</div>
+            </div>
+            <div id="pro-name">
+              <h4>Draper James Linen Coat</h4>
+              <p>Regular 12 (L) / White</p>
+            </div>
+            <div id="pro-prices">
+              <h3>$80.33</h3>
+            </div>
+          </div> -->
+          <hr />
+          <div id="gift">
+            <input type="text" placeholder="Gift card or discount code" id="coupon"/>
+            <button id="applycode">Apply</button>
+          </div>
+          <hr />
+          <div id="subtotal">
+            <div>
+              <p>Subtotal</p>
+              <p>Shipping</p>
+            </div>
+            <div>
+              <p id="total-prices"></p>
+              <p id="shiptax">Calulated at next step</p>
+            </div>
+          </div>
+          <hr />
+          <div id="total">
+            <div>
+              <p>Total</p>
+            </div>
+            <div><h3 id="finalt"></h3></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  localStorage.setItem("shippingMethod",0)
+</script>
+<script src="/scripts/last.js"></script>
+<script>
+  let UserDetails = JSON.parse(localStorage.getItem("UserDetails"))
+  document.getElementById("UserEmail").innerText=UserDetails.Email
+  document.getElementById("UserAddress").innerText=`${UserDetails.Add}, ${UserDetails.Zip}, ${UserDetails.City}, ${UserDetails.State}, ${UserDetails.Region}`
+  
+
+  const Payment = () => {
+    window.location.href="Payment.html"
+  }
+
+  document.getElementById("shippintopayment").addEventListener("click",Payment)
+</script>
+
