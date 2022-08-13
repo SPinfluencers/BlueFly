@@ -16,30 +16,30 @@
 
    <h3>Home page:-</h3> 
 
-   <img src="https://miro.medium.com/max/1400/1*6IeNHAzsnMqCYDX_gx3Ezw.jpeg" alt="" height="600px" width="300px">
+   <img src="https://miro.medium.com/max/1400/1*6IeNHAzsnMqCYDX_gx3Ezw.jpeg" alt="" height="600px" width="400px">
 
 
 
 <h3>Sign up & Login:-</h3>
-<img src="https://miro.medium.com/max/1400/1*4FeWsBGWWMlyCQXBe7aKgQ.jpeg" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*4FeWsBGWWMlyCQXBe7aKgQ.jpeg" alt="" height="600px" width="400px">
 <p>We tried to give our website some common functionality such as Carousel Sliding, Tab Switching, Dropdown Menu, Hover Effects, On-scroll shrinking, Store/Brand pages, product pages, Cart pages, Payment pages, and most important Search filtering.</p>
 <h3>Shop page:-</h3>
 
-<img src="https://miro.medium.com/max/1400/1*osogxRv0ObFOTexx8-kYcA.jpeg" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*osogxRv0ObFOTexx8-kYcA.jpeg" alt="" height="600px" width="400px">
 
 <p>We have tried to build the exact Navigation bar as has with the On-scroll size shrinking and the drop-down menu on-hover, and many other functions. We have built the exact footer as it is on the original website.</p>
 <h3>Product page:-</h3>
-<img src="https://miro.medium.com/max/1400/1*y25Btf8JLgcOlmDrpWDNNw.jpeg" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*y25Btf8JLgcOlmDrpWDNNw.jpeg" alt="" height="600px" width="400px">
 <h3>Cart page:-</h3>
 
-<img src="https://miro.medium.com/max/1400/1*YHZOGRPOo6O8OuojO5R7rg.jpeg" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*YHZOGRPOo6O8OuojO5R7rg.jpeg" alt="" height="600px" width="400px">
 <h3>Checkout - Information:-</h3>
-<img src="https://miro.medium.com/max/1400/1*3ZtrYYUVZzPp4XJaVYasiw.jpeg" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*3ZtrYYUVZzPp4XJaVYasiw.jpeg" alt="" height="300px" width="300px">
 <h3>Checkout - Shipping Page:-</h3>
-<img src="https://miro.medium.com/max/1400/1*E_G_Pgq9FAjn3jc4nbeq4Q.jpeg" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*E_G_Pgq9FAjn3jc4nbeq4Q.jpeg" alt="" height="300px" width="300px">
 
 <h3>Order Successful Place</h3>
-<img src="https://miro.medium.com/max/1400/1*nXGvqTbSRqDsblq0fEjhWQ.png" alt="" height="600px" width="300px">
+<img src="https://miro.medium.com/max/1400/1*nXGvqTbSRqDsblq0fEjhWQ.png" alt="" height="300px" width="300px">
 <h3>This was our first project where we used JavaScript. Here we have GitHub repository link of our BigBasket.com project :</h3>
 
 <p>1.Rohaan Telangur :-
