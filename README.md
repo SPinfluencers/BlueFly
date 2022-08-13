@@ -81,12 +81,11 @@
                 I worked in slide-show, product page and FAQ’s section.
                 At last Would like add is that, My team members were very supportive.
 </p>
-<p>5.Harish Rayala:-My LinkedIn profile:
-
+<p>5.Harish Rayala:-My LinkedIn profile:www.linkedin.com/in/harish-rayala
     I have used HTML, CSS to create a attractive webpage and with JS for all functionality.
-    My contribution in this project is about making few sections of segment bars which is common for all subpages.
-    By using CSS flex I have made content in alignment.
-    I have made a Carousel Slideshow by using Html, CSS and JS which I have learned from this project with help of my teammates.
+    My contribution in this project is about making shop pages for the categories like shoes, Handbags & Accessories, Designers, Men, women etc., this is similar for       all the categories pages.
+    By using CSS grid I have made content in alignment. and used Media Queries response for the User friendly.
+    I like working as a team, interacting with each other professionally. our teammates are very supportive in building this website. Thankyou .
 </p>
     <p>6. Sagar Rajendra Pawar:-
 
