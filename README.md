@@ -49,15 +49,14 @@
     Built product search filtering Created a local database for the search bar functionality And much other syncing functionality in this project was part of my job.
     I used HTML, CSS, Bootstrap-5, Sweet alert, JS, and Local-Storage ( to store and get data) and creative tags in JavaScript.
 </p>
-
-       <p>2. Akash kolte:- My LinkedIn profile is
+<p>2. Akash kolte:- My LinkedIn profile is
 
         I worked on the product page and cart page. I face some problems in the JavaScript part but it gets resolved by discussing them with my friends.
         I learn a lot of things in JavaScript, learn more about local storage, how to append, add the product to the cart, make sliding and drop-down pages, and also improved my HTML & CSS, I like working as a team, interact with each other professionally.
         I gave my best and did a lot of things but still, there are a few functionally things that are left behind and remain static. In my point of view, we can make our website more efficient by using JavaScript from the initial days so that we can save time unlike making pages again and again by using CSS and HTML so that we could have been worked more on the remaining things.
-    </p>
-
-        <p>3. Shashank Nath:-
+</P>
+        
+<p>3. Shashank Nath:-
 
             It was a great experience for me as this is my first project in tech. I
             was very excited when we started working on the project. My team members
@@ -65,17 +64,15 @@
             I learned html, css, JS, DOM, and local storage in the second unit at masai school, so I use
             that concept in this project. In this project specifically
             I worked on product pages and the product desciption page. So, overall I get to know new concepts and I also learn how to work in a team.
-        </p>
-
-            <p>4. Bishnu Gorai:- My LinkedIn profile:
+</p>
+<p>4. Bishnu Gorai:- My LinkedIn profile:
 
                 I used many properties and learnt a lot of things from this project :-
                 I used HTML, CSS, JS and Local Storage ( to store and get data).
                 I used CSS flex and grid properties to reduce code and time.
                 I worked in slide-show, product page and FAQ’s section.
                 At last Would like add is that, My team members were very supportive.
-            </p>
-
+</p>
 <p>5.Harish Rayala:-My LinkedIn profile:
 
     I have used HTML, CSS to create a attractive webpage and with JS for all functionality.
