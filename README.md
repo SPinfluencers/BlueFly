@@ -42,19 +42,20 @@
 <img src="https://miro.medium.com/max/1400/1*nXGvqTbSRqDsblq0fEjhWQ.png" alt="" height="600px" width="300px">
 <h3>This was our first project where we used JavaScript. Here we have GitHub repository link of our BigBasket.com project :</h3>
 
-<h6>1.Rohaan Telangur :- My LinkedI profile is https://www.linkedin.com/in/rohan-telangur/
+<h6>1.Rohaan Telangur :-
 
     I worked on the home page, cart page & checkout page tried clone it exactly like the original website’s page specifically when it comes to the Navigation bar, footer, banners, and app download banner.
     Worked on almost every page of the website in terms of syncing all the pages together and fixing the Navigation bar, footer sitemap, and as well as on functionality of the website.
     Built product search filtering Created a local database for the search bar functionality And much other syncing functionality in this project was part of my job.
     I used HTML, CSS, Bootstrap-5, Sweet alert, JS, and Local-Storage ( to store and get data) and creative tags in JavaScript.
-    </h6>
+</h6>
 
-    <h6>2. Akash kolte:- My LinkedIn profile is
+       <h6>2. Akash kolte:- My LinkedIn profile is
 
         I worked on the product page and cart page. I face some problems in the JavaScript part but it gets resolved by discussing them with my friends.
         I learn a lot of things in JavaScript, learn more about local storage, how to append, add the product to the cart, make sliding and drop-down pages, and also improved my HTML & CSS, I like working as a team, interact with each other professionally.
-        I gave my best and did a lot of things but still, there are a few functionally things that are left behind and remain static. In my point of view, we can make our website more efficient by using JavaScript from the initial days so that we can save time unlike making pages again and again by using CSS and HTML so that we could have been worked more on the remaining things.</h6>
+        I gave my best and did a lot of things but still, there are a few functionally things that are left behind and remain static. In my point of view, we can make our website more efficient by using JavaScript from the initial days so that we can save time unlike making pages again and again by using CSS and HTML so that we could have been worked more on the remaining things.
+    </h6>
 
         <h6>3. Shashank Nath:-
 
@@ -63,7 +64,8 @@
             were very supportive and helped me a lot during project work.
             I learned html, css, JS, DOM, and local storage in the second unit at masai school, so I use
             that concept in this project. In this project specifically
-            I worked on product pages and the product desciption page. So, overall I get to know new concepts and I also learn how to work in a team.</h6>
+            I worked on product pages and the product desciption page. So, overall I get to know new concepts and I also learn how to work in a team.
+        </h6>
 
             <h6>4. Bishnu Gorai:- My LinkedIn profile:
 
@@ -71,13 +73,16 @@
                 I used HTML, CSS, JS and Local Storage ( to store and get data).
                 I used CSS flex and grid properties to reduce code and time.
                 I worked in slide-show, product page and FAQ’s section.
-                At last Would like add is that, My team members were very supportive.</h6>
+                At last Would like add is that, My team members were very supportive.
+            </h6>
+
 <h6>5.Harish Rayala:-My LinkedIn profile:
 
     I have used HTML, CSS to create a attractive webpage and with JS for all functionality.
     My contribution in this project is about making few sections of segment bars which is common for all subpages.
     By using CSS flex I have made content in alignment.
-    I have made a Carousel Slideshow by using Html, CSS and JS which I have learned from this project with help of my teammates.</h6>
+    I have made a Carousel Slideshow by using Html, CSS and JS which I have learned from this project with help of my teammates.
+</h6>
     <h6>6. Sagar Rajendra Pawar:-
 
         It was a great experience for me as this is my first project in tech. I
