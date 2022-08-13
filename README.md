@@ -84,9 +84,11 @@
 <p>5.Harish Rayala:-My LinkedIn profile:www.linkedin.com/in/harish-rayala
     
     I have used HTML, CSS to create a attractive webpage and with JS for all functionality.
-    My contribution in this project is about making shop pages for the categories like shoes, Handbags & Accessories, Designers, Men, women etc., this is similar for       all the categories pages.
+    My contribution in this project is about making shop pages for the categories like shoes, Handbags & Accessories, Designers, Men, women etc.,
+    this is similar for all the categories pages.
     By using CSS grid I have made content in alignment. and used Media Queries response for the User friendly.
-    I like working as a team, interacting with each other professionally. our teammates are very supportive in building this website. Thankyou .
+    I like working as a team, interacting with each other professionally.
+    our teammates are very supportive in building this website. Thankyou .
 </p>
     <p>6. Sagar Rajendra Pawar:-
 
