@@ -12,7 +12,8 @@
 
 <p>This is our second project at Masai School using JavaScript, HTML, and CSS. We worked on , Bluefly.com an online Desiger Fashion colths selling store.
 
-    We had a time frame of seven days. This was the first website building project for all of us, yes am emphasizing “website building” because we have built this website from scratch.</p>
+    We had a time frame of seven days. This was the first website building project for all of us, yes am emphasizing “website building” 
+    because we have built this website from scratch.</p>
 
    <h3>Home page:-</h3> 
 
@@ -51,9 +52,15 @@
 </p>
 <p>2. Akash kolte:- My LinkedIn profile is
 
-        I worked on the product page and cart page. I face some problems in the JavaScript part but it gets resolved by discussing them with my friends.
-        I learn a lot of things in JavaScript, learn more about local storage, how to append, add the product to the cart, make sliding and drop-down pages, and also improved my HTML & CSS, I like working as a team, interact with each other professionally.
-        I gave my best and did a lot of things but still, there are a few functionally things that are left behind and remain static. In my point of view, we can make our website more efficient by using JavaScript from the initial days so that we can save time unlike making pages again and again by using CSS and HTML so that we could have been worked more on the remaining things.
+        I worked on the product page and cart page. I face some problems in the JavaScript part but it 
+    gets resolved by discussing them with my friends.
+        I learn a lot of things in JavaScript, learn more about local storage, how to append, add the 
+    product to the cart, make sliding and drop-down pages, and also improved my HTML & CSS, I like working as a 
+    team, interact with each other professionally.
+        I gave my best and did a lot of things but still, there are a few functionally things that are left 
+    behind and remain static. In my point of view, we can make our website more efficient by using JavaScript 
+    from the initial days so that we can save time unlike making pages again and again by using CSS and HTML so that we 
+    could have been worked more on the remaining things.
 </P>
         
 <p>3. Shashank Nath:-
@@ -63,7 +70,8 @@
             were very supportive and helped me a lot during project work.
             I learned html, css, JS, DOM, and local storage in the second unit at masai school, so I use
             that concept in this project. In this project specifically
-            I worked on product pages and the product desciption page. So, overall I get to know new concepts and I also learn how to work in a team.
+            I worked on product pages and the product desciption page. So, overall I get to know new concepts 
+    and I also learn how to work in a team.
 </p>
 <p>4. Bishnu Gorai:- My LinkedIn profile:
 
